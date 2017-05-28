@@ -1,0 +1,134 @@
+body{
+	background-color:rgb(255,255,255);
+}
+/* header */
+.header{
+	padding:50px;
+	background-color: white;
+	background-size:cover;
+	text-align:center;
+	color:white;
+	box-shadow:0 0 12px #666;
+}
+
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(245,245,245);
+    box-shadow:0 0 5px #666;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	color: white;
+    background-color: pink;
+    text-decoration: none;
+}
+
+
+/*logo*/
+img#logofull{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+}
+
+/* main tekst*/
+div.maintext{
+	background-color: rgba(145,144,111,0.5);
+	width: 90%;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 10px;
+}
+
+
+h1{
+	font-family: 'Playfair Display', serif;
+	color:white;
+	font-weight: regular;
+	font-style: normal;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	padding-left:20%;
+	padding-right: 20%;
+	text-align: center;
+
+}
+
+a#meerweten:link, a#meerweten:visited {
+
+    background-color: rgb(178,98,109);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+a#meerweten:hover, a#meerweten:active {
+    background-color: rgb(255,165,177);
+}
+/*tweedebox*/
+
+div.secondbox{
+	background-color: rgba(145,144,111,0.5);
+	width: 90%;
+	display: block;
+	margin-top:20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 10px;
+}
+
+
+footer{
+	color:rgb(178,98,109);
+	background-color:rgb(245,245,245);
+	padding:25px;
+    bottom: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.right
+	text-align: right;

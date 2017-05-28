@@ -1,0 +1,108 @@
+body{
+	background-color:rgb(255,255,255);
+}
+/* header */
+.header{
+	padding:50px;
+	background-color: white;
+	background-size:cover;
+	text-align:center;
+	color:white;
+	box-shadow:0 0 12px #666;
+}
+
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(245,245,245);
+    box-shadow:0 0 5px #666;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	color: white;
+    background-color: pink;
+    text-decoration: none;
+}
+
+
+
+
+/* main tekst*/
+
+div.main {
+	background-color: rgba(144,145,111,0.5);
+	margin-top: 20px;
+	text-align: center;
+	height: auto;
+}
+
+.persoon {
+	margin:2%;
+	    position: relative; 
+    display: inline-block;
+    padding: 10px; 
+
+	 width: 20%
+}
+
+.circle {
+
+      border-radius: 50%;
+      margin: 30px;
+      width: 70%;
+      margin-bottom: 0;
+    }
+
+h1 {
+
+      font-family: 'playfair display',serif;
+      color: white;
+      font-size:24px;
+      margin: 20px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+p{
+	font-family: 'Raleway',sans-serif;
+	text-align: center
+}
+.info{
+  font-family: 'Raleway',sans-serif;
+  text-align: center
+  padding-top: 20px;
+}
+
+footer{
+	color:rgb(178,98,109);
+	background-color:rgb(245,245,245);
+	padding:25px;
+  bottom: 0;
+  margin-top: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.right
+	text-align: right;

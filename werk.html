@@ -1,0 +1,211 @@
+<html>
+	<head>
+		<title>STUDIO ZZ </title>
+		<meta charset="utf-8" />
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="assets/werk.css" />
+
+<!-- Script Lightbox -->
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<!-- End Script Lightbox -->
+
+	</head>
+	<body>
+
+		<!-- Header -->
+
+			<header id="header">
+				<div class="inner">
+					
+					<nav class="nav">
+						<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="werk.html">Portfolio</a></li>
+						<li><a href="wie.html">Studio ZZ</a></li>
+						<a href="index.html" style="float:left"> <img src="_img/logo.png" alt="logo" id="logo" style="height:60px;width:120px;"> </a>
+						</ul>
+					</nav>
+		
+				</div>
+			</header>
+
+	<!-- Main -->
+
+			<main class="main">
+
+<!-- Start Lightbox -->
+
+<div class="row" style="background-color: rgba(144,145,111,0.5); margin-top:20px; padding-top: 25px; padding-bottom: 25px">
+  <div class="column">
+    <img src="_img/portfolio/bouwfuif.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="_img/portfolio/aspirados.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="_img/portfolio/bvp.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="_img/portfolio/ellencamille.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/friendsfries.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/stopmotion.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/fuif21.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="_img/portfolio/kleurtjesposter.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/publicatie.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/monster.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/bredalive.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+   <div class="column">
+    <img src="_img/portfolio/bouwfuif.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+        <img src="_img/portfolio/lightbox/bouwfuif.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+        <img src="_img/portfolio/lightbox/aspirados.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+        <img src="_img/portfolio/lightbox/bvp.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+        <img src="_img/portfolio/lightbox/ellencamille.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+        <img src="_img/portfolio/lightbox/friendsfries.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+        <img src="_img/portfolio/aspirados.jpg" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+        <img src="_img/portfolio/bouwfuif.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="_img/portfolio/monster.jpg" onclick="currentSlide(1)" alt="Bouwfuif">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="_img/portfolio/aspirados.jpg" onclick="currentSlide(2)" alt="Aspirados">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="_img/portfolio/bvp.jpg" onclick="currentSlide(3)" alt="Bal Van 't Plein'">
+    </div>
+  </div>
+    <div class="column">
+      <img class="demo" src="_img/portfolio/bouwfuif.jpg" onclick="currentSlide(4)" alt="Bal Van 't Plein'">
+    </div>
+  </div>
+  </div>
+
+</div>
+<!-- End Lightbox -->
+
+
+
+<div class="mainmain">
+
+</div>		
+		
+	</main>
+
+
+<footer>Copyright &copy; 2017 <span id='right'>Studio ZZ</span></footer>
+	</body>
+</html>
